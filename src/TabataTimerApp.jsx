@@ -21,7 +21,7 @@ export const TabataTimerApp = () => {
     <ol className="exercise">
       {
         excercise.map( excercise => {
-          return <li className=""
+          return <li className="exercise-box"
           key={excercise}>{excercise}</li>
         } )
       }

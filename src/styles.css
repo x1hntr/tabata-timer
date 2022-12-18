@@ -1,48 +1,51 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: antiquewhite;
-    background-color:  #1e272e ;
-    align-items: center;
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  background-color:  #1e272e ;
+  align-items: center;
+}
 
-  .bar-title{
-    align-content: center;
-    align-items: center;
-    background-color: #FFC312;
-    display: flex;
-    flex-direction: column;
-    height: 0%;  
-    justify-content: center;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    overflow: hidden;
-    font-size: 25px;
-    color: #323133;
-    
-  }
-
-  .exercise{
-    
-    margin: 8px 0;
-    background-color: #FFC312;
-    color: #444;
-    width: 40%;
-    border-radius: 5px;
-    
-    
-
-    
-  }
-  .txtInput{
-  border-color: #FFC312;
-  background-color: #1e272e;
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-radius: 5px;
-  }
-
-
+.bar-title{
+  align-content: center;
+  align-items: center;
+  background-color: #FFC312;
+  display: flex;
+  flex-direction: column;
+  height: 0%;  
+  justify-content: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  font-size: 25px;
+  color: #323133;
   
+}
+
+.exercise{
+  margin: 8px 0;
+  background-color: #FFC312;
+  color: #444;
+  width: 37.5%;
+  border-radius: 5px;
+padding: 12px 50px;
+ 
+}
+
+.txtInput{
+border-color: #FFC312;
+background-color: #1e272e;
+width: 45%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+
+.exercise-box{
+background-color: #FFC312;
+width: 35%;
+font-size: 25px;
+color: #323133;
+}
