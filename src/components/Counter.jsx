@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import '../styles.css'
 
 export const CounterApp = ( {value} ) => {
 
@@ -17,7 +17,7 @@ export const CounterApp = ( {value} ) => {
 
     return(
         <>
-        <h1>Numero de tabatas</h1>
+        <h1 className='bar-tabata'>Numero de tabatas</h1>
         <h2> { counter } </h2>
         <button onClick={ handleAdd }> +1 </button>
         <button onClick={ handleSubtract }>-1</button>

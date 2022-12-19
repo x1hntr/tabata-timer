@@ -5,7 +5,7 @@ import './styles.css';
 import { TabataTimerApp } from './TabataTimerApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode>   
     <TabataTimerApp />
     <CounterApp/>
   </React.StrictMode>,

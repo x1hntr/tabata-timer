@@ -49,3 +49,21 @@ width: 35%;
 font-size: 25px;
 color: #323133;
 }
+
+.bar-tabata{
+  align-content: center;
+  align-items: center;
+  background-color: #FFC312;
+  display: flex;
+  flex-direction: column;
+  height: 0%;  
+  justify-content: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 45%;
+  overflow: hidden;
+  font-size: 25px;
+  color: #323133;
+  
+}
